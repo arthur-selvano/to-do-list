@@ -16,7 +16,10 @@ npm install
 ```
 npm run dev
 ```
-## Abra no navegador http://localhost:5173
+## Abra no navegador 
+```
+http://localhost:5173
+```
 
 ## Tecnologias
 ```

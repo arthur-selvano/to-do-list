@@ -7,16 +7,16 @@ Aplicação web simples de lista de tarefas desenvolvida com React e Vite.
 - Marcar tarefas como concluídas
 - Deletar tarefas
 
-## Como rodar
+## 1. Como rodar
 1. Instale as dependências:
-```bash
+```
 npm install
 ```
-## Rode o servidor de desenvolvimento:
+## 2. Rode o servidor de desenvolvimento:
 ```
 npm run dev
 ```
-## Abra no navegador 
+## 3. Abra no navegador 
 ```
 http://localhost:5173
 ```

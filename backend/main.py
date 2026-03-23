@@ -46,7 +46,7 @@ def adicionar(tarefa: Tarefa):
 
 @app.delete("/tarefas/{tarefa_id}")
 def deletar_tarefa(tarefa_id: int):
-    conn = sqlite3.connect(DB_NAME) # <--- AQUI ESTAVA O ERRO (estava database.db)
+    conn = sqlite3.connect(DB_NAME) 
     cursor = conn.cursor()
     cursor.execute("DELETE FROM tarefas WHERE id = ?", (tarefa_id,))
     conn.commit()
